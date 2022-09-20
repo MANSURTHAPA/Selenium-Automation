@@ -20,7 +20,7 @@ public class Login {
 	  //Click on Sign in
 	  driver.findElement(By.linkText("Sign in")).click();
 	  //Login
-	  driver.findElement(By.id("email")).sendKeys("test1249@test.com");
+	  driver.findElement(By.id("email")).sendKeys("mansur@test.com");
 	  driver.findElement(By.id("passwd")).sendKeys("PKR@PKR");
 	  driver.findElement(By.id("SubmitLogin")).click();
 	  String userText=driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")).getText();
