@@ -20,7 +20,7 @@ public class PurchaseProduct {
 	  //Click on Sign in
 	  driver.findElement(By.linkText("Sign in")).click();
 	  //Login
-	  driver.findElement(By.id("email")).sendKeys("test1249@test.com");
+	  driver.findElement(By.id("email")).sendKeys("mansur@test.com");
 	  driver.findElement(By.id("passwd")).sendKeys("PKR@PKR");
 	  driver.findElement(By.id("SubmitLogin")).click();
 	  //Click on Women
@@ -47,7 +47,7 @@ public class PurchaseProduct {
 	  driver.findElement(By.xpath("//p[@id='add_to_cart']//span[.='Add to cart']")).click();
 
 	  //Click on proceed
-	  driver.findElement(By.xpath("/html//div[@id='layer_cart']//a[@title='Proceed to checkout']/span")).click();
+	  driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/a")).click();
 	  //Checkout page Proceed
 	  driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[3]/div/p[2]/a[1]/span")).click();
 	  driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[3]/div/form/p/button/span")).click();
