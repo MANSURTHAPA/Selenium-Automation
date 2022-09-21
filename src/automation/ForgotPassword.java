@@ -20,9 +20,8 @@ public static void main(String[] args) throws InterruptedException {
 	   driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")).click();
 		Thread.sleep(2000);
 		js.executeScript("window.scrollBy(0,300)");
-		
-		 driver.findElement(By.id("email")).sendKeys("randhirall20@gmail.com");
-		Thread.sleep(1000);
+//		
+
 	
 		WebElement ForgetBtn = driver.findElement(By.xpath("//*[@id=\"login_form\"]/div/p[1]/a"));
 		ForgetBtn.click();
